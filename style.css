@@ -57,138 +57,10 @@ Tags: page, educared
 .hamburguesa{
    display: none;
 }
-/* .navegador{
-    text-align: center;
-    background-color: #1E3245;
-} */
-/* /* .menu{
-   background-color: #1E3245;
-   position: sticky;
-   height: 50px;
-}
-.menu ul{
-   display: flex;
-   align-items: center;
-   justify-content: space-around;
-   width: 100%;
-   
-   
-} */
-/*.menu ul li{
-   text-decoration: none;
-   list-style: none;
-   color: white;
-   width: 100%; */
-   /* padding-top: 10px; */
-   /* padding-bottom: 10px; */
-   /* text-align: center; */
-   /* height: 50px; */
-   /* display: flex;
-   align-items: center;
-   justify-content: center;
-   
-} */
-/* .menu ul li:hover{
-   border: 2px red solid;
-} */
 
-/* .navegador nav div a{ */
-    /* width: 150px; */
-    /* width: 14em;
-    background-color: #1E3245;
-}
-.menu > li > a{
-   position: relative;
-	display: inline-block;
-} */
-/* .dropdownmenu{
-   display: flex;
-   justify-content: space-around;
-   list-style: none;
-   width: 100%;
-   padding-left: 0;
-}
-.dropdownmenu li{
-   width: 100%;
-   height: 40px;
-   color: white;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
-.dropdownmenu li:hover{
-   background-color: white;
-   color: black;
-}
-
-li:hover ul.sub-menu {
-	opacity: 1;
-   visibility: visible;
-   display: block;
-}
-
-.sub-menu {
-	opacity: 0;
-	position: absolute;
-	visibility: hidden;
-   z-index: 2;
-   display: block;
-   width: 14.5%;
-   margin-top: 60px;
-   background-color: #1E3245;
-   padding: 0;
-   text-align: center;
-}
-
-.sub-menu li {
-	float: none;
-	width: 100%;
-}
-.sub-menu li:hover{
-   background: white;
-   color: black;
-}
-
-.sub-menu a:hover {
-   background: #ffffff;
-   color: black;
-}
-.sub-menu a{
-   z-index: 1;
-   width: 100%;
-   color: white;
-   padding: 0;
-} 
-
-li:hover ul.sub-menu li ul.sub-menu{
-   left: 24.5em;
-   opacity: 1;
-	position: absolute;
-	/* visibility: hidden; */
-   /*z-index: 2;
-   display: block;
-   width: 100%;
-   margin-top: 20px;
-   background-color: #1E3245;
-}
-
-.sub-menu li ul{
-   left: 24.5em;
-   opacity: 0;
-	position: absolute;
-	visibility: hidden;
-   z-index: 2;
-   display: block;
-   width: 100%;
-   margin-top: 20px;
-   background-color: #1E3245;
-}  */
 
 .dropdownmenu{
-   /* height: 50px; */
-   /* box-shadow: 2px 2px 0 #1E3245; */
    display: flex;
-   /* justify-content: space-around; */
    align-items: center;
    padding: 0;
    text-align: center;
@@ -196,14 +68,8 @@ li:hover ul.sub-menu li ul.sub-menu{
 }
 
  .dropdownmenu ul, li{
-    /* display: inline; */
     list-style: none;
 } 
-
-/* .dropdownmenu ul li:hover{
-   border: 2px solid white;
-   
-} */
 
 .dropdownmenu ul{
   padding: 0;
@@ -215,30 +81,14 @@ li:hover ul.sub-menu li ul.sub-menu{
    height: 100%;
 }
 
-/* .dropdownmenu li:hover ul.sub-menu li{
-   display: block;
-   width: 100%;
-   line-height: 0;
-   border-bottom: 2px solid white;
-   border-left: 2px solid white ;
-   background-color: #1E3245;
-   z-index: 2;
-} */
-
 .dropdownmenu li ul li{
    width: 18em;
    text-align: center;
 }
 
-/* .dropdownmenu li:hover{
-   background: #fff;
-   color: black;
-} */
-
 .dropdownmenu a{
    padding: 15px;
    text-decoration: none;
-   /* line-height: 50px; */
    display: block;
    color: #fff;
    font-family: sans-serif;
@@ -271,139 +121,122 @@ li:hover ul.sub-menu li ul.sub-menu{
 }
 
 .dropdownmenu ul li ul {
-   /* target all second, third, and deeper level sub menus */
    left: 100%; /* this needs to match the sub menu width set above -- width + padding + borders */
    top: 0; /* this ensures the sub menu starts in line with its parent item */
 }
 
-/* .dropdownmenu a:hover > .sub-menu{
-   display: block;
-   border: 1px solid red;
-} */
-
-/* .dropdownmenu ul ul li ul{
-   left: 150px;
-   top: 0;
-} */
-
-/* .sub-menu{
-   width: 100%;
-   display: none;
-}
-
-.sub-menu li{
-   width: 13.7em;
-} */
-/* .dropdownmenu ul ul a{
-   width: 100%;
-   line-height: 30px;
-   
-   display: block;
-}
-
-.dropdownmenu ul li{
-   position: relative;
-   float: left;
-}
-
-.dropdownmenu ul ul{
-   position: absolute;
-   top: -9999999px;
-   left: 0;
-   opacity: 0;
-   background: #1E3245;
-   text-align: left;
-   box-shadow: 2px 2px 0 #1E3245;
-   z-index: 2;
-   width: 150%;
-   
-}
-
-.dropdownmenu ul li{
-   width: 100%;
-   line-height: 0;
-   border-bottom: 2px solid white;
-   border-left: 2px solid white ;
-   background-color: #1E3245;
-   display: none;
-} */
-
-
-
-
-
 
 /*cuerpo*/
+/* titulos */
+
+h2{
+   color: #1E3245;
+   font-size: 50px !important;
+   margin-top: 140px !important;
+   text-align: center;
+}
+
+h3{
+   color: #36B9C9;
+   font-size: 30px !important;
+   margin: 50px 0 !important;
+   text-align: left;
+}
+
+/*imagen destacada */
+
+.wp-block-image img{
+   width: 100%;
+   text-align: center;
+   border-radius: 20px;
+   border: 1px solid black;
+}
+
+.text-justify h3{
+   padding: 0 40px;
+}
+
+.text-justify h4{
+   padding: 0 40px;
+}
+
+.text-justify p{
+   padding: 0 40px 20px;
+}
+
+.text-justify ul{
+   padding-bottom: 20px;
+}
+
+.text-justify ul li{
+   list-style: inside;
+}
 
 
- h2{
-     color: #36B9C9;
- }
+.arriba{
+   background-color: #36B9C9;
+}
 
- .arriba{
-    background-color: #36B9C9;
- }
+.imgBanner1{
+   padding:60px;
+   width: 100%;
+   text-align: left;
+}
 
- .imgBanner1{
-     padding:60px;
-     width: 100%;
-     text-align: left;
- }
-
- .imgBanner2{
-    padding-top: 50px;
-    width: 100%;
-    text-align: right;
- }
-
- .imgBanner2 img{
+.imgBanner2{
+   padding-top: 50px;
+   width: 100%;
    text-align: right;
- }
- #navbar{
+}
+
+.imgBanner2 img{
+   text-align: right;
+}
+#navbar{
    background-color: #1E3245;
    color: white;
    z-index: 2;
    width: 100%;
 }
 
- .menu{
-    font-size: 11px;
- }
+.menu{
+   font-size: 11px;
+}
 
- .burguer-menu{
-    display: none;
- }
+.burguer-menu{
+   display: none;
+}
 
- .bienvenida{
-     margin: 70px 0;
- }
+.bienvenida{
+   margin: 70px 0;
+}
 
- .comunidad{
-    margin: 40px 0;
- }
+.comunidad{
+   margin: 40px 0;
+}
 
- .divcomun{
-    margin: 10px;
-    background-color: #1E3245;
-    color: white;
- }
- .divcomun p{
-    padding: 20px;
- }
+.divcomun{
+   margin: 10px;
+   background-color: #1E3245;
+   color: white;
+}
+.divcomun p{
+   padding: 20px;
+}
 
- .divcomun h6{
-    padding: 0 20px;
-    margin: 10px 0 0;
- }
+.divcomun h6{
+   padding: 0 20px;
+   margin: 10px 0 0;
+}
 
- .input{
+.input{
    border-radius: 25px;
- }
+}
 
 
- .proyectos{
-     margin: 40px 0;
- }
+.proyectos{
+   margin: 40px 0;
+}
 
  .bloque1{
     margin: 20px 0;

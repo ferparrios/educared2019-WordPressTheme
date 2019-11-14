@@ -4,7 +4,7 @@ get_header();
 ?>
 
     <!-- contenido menu -->
-    <div class="container my-5">
+    <div class="container my-lg-5">
 
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
         <h2><?php the_title(); ?></h2>
