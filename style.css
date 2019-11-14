@@ -4,7 +4,7 @@ Theme URI: https://wordpress.org/themes/twentyseventeen/
 Author: Fernando Paredes Rios
 Author URI: https://wordpress.org/
 Description: Nueva Web de Educared
-Version: 1.0
+Version: 2.0
 Text Domain: educared2019
 Tags: page, educared
 */
@@ -185,23 +185,25 @@ li:hover ul.sub-menu li ul.sub-menu{
 }  */
 
 .dropdownmenu{
-   height: 50px;
-   box-shadow: 2px 2px 0 #1E3245;
+   /* height: 50px; */
+   /* box-shadow: 2px 2px 0 #1E3245; */
    display: flex;
-   justify-content: space-around;
+   /* justify-content: space-around; */
+   align-items: center;
    padding: 0;
    text-align: center;
    margin-bottom: 0;
 }
 
- .dropdownmenu ul, .dropdownmenu li {
-    display: inline;
+ .dropdownmenu ul, li{
+    /* display: inline; */
+    list-style: none;
 } 
 
-.dropdownmenu ul li:hover{
+/* .dropdownmenu ul li:hover{
    border: 2px solid white;
    
-}
+} */
 
 .dropdownmenu ul{
   padding: 0;
@@ -213,7 +215,7 @@ li:hover ul.sub-menu li ul.sub-menu{
    height: 100%;
 }
 
-.dropdownmenu li:hover ul.sub-menu li{
+/* .dropdownmenu li:hover ul.sub-menu li{
    display: block;
    width: 100%;
    line-height: 0;
@@ -221,17 +223,22 @@ li:hover ul.sub-menu li ul.sub-menu{
    border-left: 2px solid white ;
    background-color: #1E3245;
    z-index: 2;
-}
+} */
 
-.dropdownmenu ul li{
+.dropdownmenu li ul li{
    width: 18em;
    text-align: center;
 }
 
+/* .dropdownmenu li:hover{
+   background: #fff;
+   color: black;
+} */
+
 .dropdownmenu a{
-   padding: 0 20px 0 20px;
+   padding: 15px;
    text-decoration: none;
-   line-height: 50px;
+   /* line-height: 50px; */
    display: block;
    color: #fff;
    font-family: sans-serif;
@@ -244,10 +251,53 @@ li:hover ul.sub-menu li ul.sub-menu{
    color: black;
 }
 
-.dropdownmenu ul ul a{
+.dropdownmenu ul{
+   display: none;
+   position: absolute;
+   top: 100%;
+}
+
+.dropdownmenu ul li{
+   float: none;
+   width: 150px;
+}
+
+.dropdownmenu ul li a{
+   padding: 5px 10px;
+}
+
+.dropdownmenu li:hover > ul{
+   display: block;
+}
+
+.dropdownmenu ul li ul {
+   /* target all second, third, and deeper level sub menus */
+   left: 100%; /* this needs to match the sub menu width set above -- width + padding + borders */
+   top: 0; /* this ensures the sub menu starts in line with its parent item */
+}
+
+/* .dropdownmenu a:hover > .sub-menu{
+   display: block;
+   border: 1px solid red;
+} */
+
+/* .dropdownmenu ul ul li ul{
+   left: 150px;
+   top: 0;
+} */
+
+/* .sub-menu{
+   width: 100%;
+   display: none;
+}
+
+.sub-menu li{
+   width: 13.7em;
+} */
+/* .dropdownmenu ul ul a{
    width: 100%;
    line-height: 30px;
-   /* padding: 0 20px; */
+   
    display: block;
 }
 
@@ -276,15 +326,14 @@ li:hover ul.sub-menu li ul.sub-menu{
    border-left: 2px solid white ;
    background-color: #1E3245;
    display: none;
-}
+} */
 
-.dropdownmenu ul li:hover > ul{
-   position: absolute;
-   top: 100%;
-   opacity: 1;
-   
-}
 
+
+
+
+
+/*cuerpo*/
 
 
  h2{
