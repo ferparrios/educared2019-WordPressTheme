@@ -118,6 +118,7 @@ Tags: page, educared
 
 .dropdownmenu li:hover > ul{
    display: block;
+   transition-delay: 0.1s;
 }
 
 .dropdownmenu ul li ul {
@@ -127,6 +128,18 @@ Tags: page, educared
 
 
 /*cuerpo*/
+
+/*desafios para la educacion*/
+
+#desaf ul li{
+   display: inline !important;
+   margin-right: 10px !important;
+   list-style: none !important;
+}
+
+
+
+
 /* titulos */
 
 h2{
@@ -185,12 +198,15 @@ h3{
 
 .imgBanner2{
    padding-top: 50px;
-   width: 100%;
+   /* width: 100%; */
    text-align: right;
 }
 
 .imgBanner2 img{
-   text-align: right;
+   /* text-align: right; */
+   height: 60%;
+   padding-left: 0px;
+   padding-right: 0px;
 }
 #navbar{
    background-color: #1E3245;
